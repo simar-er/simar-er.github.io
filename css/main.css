@@ -1694,12 +1694,29 @@
 			margin-bottom: 0;
 		}
 
+/* image tambahan */
+
+/* .img2 
+{
+	height: 200px;
+	width: 300px;
+	display: inline-block;
+} */
+
 /* Image */
 
 	.image {
 		display: inline-block;
 		border: 0;
 	}
+
+
+		.image .ava 
+		{
+			height: 100px;
+			width: 100px;
+			border-radius: 50px;
+		}
 
 		.image img {
 			display: block;
@@ -2186,7 +2203,7 @@
 
 			#main > section.one {
 				background-color: #81918E;
-				background-image: url("../img/banner.jpg");
+				background-image: url("../images/banner/banner.jpeg");
 			}
 
 			#main > section.two {
