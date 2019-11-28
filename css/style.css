@@ -89,17 +89,17 @@ p{
     padding: 10px;
 }
 
-img
+/* img
 {
     display: block;
     height: 400px;
     width: 350px;
-}
+} */
 
-.images 
+/* .images 
 {
     height: 300px;
-}
+} */
 /*---------------------------------------
   02. Scroll To Top
 ----------------------------------------*/
@@ -201,7 +201,7 @@ button {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    height: 36px;
+    height: 0;
     -ms-flex-pack: distribute;
     justify-content: space-around;
     line-height: 44px;
