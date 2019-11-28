@@ -74,15 +74,18 @@ h1 {
     padding: 10px;
     font-family: 'Kaushan Script', Roboto;
 }
+
 h3 
 {
-    font-size: : 10px;
+    font-size: 15px;
     color: #ff0707;
     font-weight: bold;
     text-align: center;
     padding: 10px;
 }
-p{
+
+p
+{
     font-size: 15px;
     text-align: justify;
     font-family: serif, Roboto;
