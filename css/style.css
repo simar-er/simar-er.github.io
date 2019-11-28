@@ -66,11 +66,34 @@
 
 /* images tambahan */
 
+
+h1 {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Kaushan Script', Roboto;
+}
+h3 
+{
+    font-size: : 10px;
+    color: #ff0707;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}
+p{
+    font-size: 15px;
+    text-align: justify;
+    font-family: serif, Roboto;
+    padding: 10px;
+}
+
 img
 {
     display: block;
-    height: 270px;
-    width: 270px;
+    height: 400px;
+    width: 350px;
 }
 
 .images 
@@ -99,6 +122,7 @@ img
     z-index: 200;
 }
 #scrollUp:hover {
+
 }
 button:focus,input:focus {
     outline: none;
@@ -187,7 +211,7 @@ button {
     z-index: 2;
 }
 .product__action::before {
-    background: #fff none repeat scroll 0 0;
+    background: #f80202; none repeat scroll 0 0;
     content: "";
     height: 100%;
     left: 0;
@@ -251,7 +275,7 @@ button {
     transition: all 0.4s ease 0s;
 }
 .add__to__wishlist a span:hover {
-    color: ;
+    color: black;
 }
 .product__details h2 {
     color: #444444;
@@ -546,7 +570,7 @@ button {
     color: #999;
 }
 .s-price-box span.new-price {
-    color: #ffc1076;
+    color: #ffc107;
     font-size: 23px;
     margin-right: 5px;
 }
